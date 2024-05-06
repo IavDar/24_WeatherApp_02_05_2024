@@ -1,0 +1,16 @@
+
+
+
+input {
+    width: 50%;
+    margin:  40px 0;
+    border-radius: 5px;
+}
+
+h1 {
+    color: rgba(85, 2, 2, 0.845);
+}
+
+/* div.container-fluid {
+    background-color: rgb(233, 245, 249);
+} */
