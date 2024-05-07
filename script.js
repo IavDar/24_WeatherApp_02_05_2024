@@ -79,7 +79,7 @@ function displayWeather({  // до деструктуризации здесь �
   wind: { speed: speedOfWind },
   sys: {sunrise, sunset }
 }) {
-
+// комментарий для пуш
   const sunriseTime = new Date(sunrise * 1000);
   const sunsetTime = new Date(sunset * 1000);
   weatherContainer.innerHTML = `
