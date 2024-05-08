@@ -1,16 +1,37 @@
 
-
-
-input {
-    width: 50%;
-    margin:  40px 0;
-    border-radius: 5px;
+#container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
 }
+
 
 h1 {
-    color: rgba(85, 2, 2, 0.845);
+    color: #333;
+} 
+
+input [type ="text"] {
+    padding: 8px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
-/* div.container-fluid {
-    background-color: rgb(233, 245, 249);
-} */
+button {
+    padding: 9px 18px;
+    font-size: 18px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.weatherContainer {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .1); 
+}
